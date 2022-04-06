@@ -1,0 +1,397 @@
+---
+title: "Madin_GlobalHalosPatternTimeSeries_2022_AmNat"
+author: "Elizabeth Madin"
+date: "30/03/2022"
+output:
+  #pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Part 1: Halo time series data
+
+```{r data merging_timeseries, echo=FALSE}
+
+# import datasets
+halodataBB <- read.csv("dat/base/halo time series data/halodataKL.csv")
+halodataBB$reef <- factor(halodataBB$reef)
+halodataBB$date <- factor(halodataBB$date)
+halodataM <- read.csv("dat/base/halo time series data/halodataM2.csv")
+halodataM$reef <- factor(halodataM$reef)
+halodataM$date <- factor(halodataM$date)
+halodataH <- read.csv("dat/base/halo time series data/halodataHx.csv")
+halodataH$reef <- factor(halodataH$reef)
+halodataH$date <- factor(halodataH$date)
+halodataFj <- read.csv("dat/base/halo time series data/halodataF.csv")
+halodataFj$reef <- factor(halodataFj$reef)
+halodataFj$date <- factor(halodataFj$date)
+
+# rename datasets
+halodata_usa <- halodataBB
+halodata_guam <- halodataM
+halodata_aus <- halodataH
+halodata_fiji <- halodataFj
+
+# standardize datasets
+cols <- c("location", "reef", "date", "reef.area", "reef.rad", "halo.area", "halo.rad", "halo.wid")
+
+halodata_usa <- halodata_usa[cols]
+
+halodata_guam$reef.area <- NA
+halodata_guam$halo.area <- NA
+halodata_guam <- halodata_guam[cols]
+
+halodata_aus <- halodata_aus[cols]
+
+halodata_fiji <- halodata_fiji[cols]
+
+# merge datasets
+halodata_all <- rbind(halodata_usa, halodata_guam, halodata_aus, halodata_fiji)
+
+# add column for ratio of halo width : reef radius
+halodata_all$halo.reef.ratio <- halodata_all$halo.wid / halodata_all$reef.rad
+halodata_all$halo.reef.ratio.log <- log10(halodata_all$halo.reef.ratio)
+
+```
+
+
+```{r summarizing_timeseries, echo=FALSE}
+
+library(plyr)
+library(Rmisc)
+
+# run the functions length, mean, and sd on the value of "halo.wid" for each group, 
+# broken down by location + date, then calculate se
+halodata_all_summary <- ddply(halodata_all, c("location", "date"), summarise,
+               N.wid    = length(halo.wid),
+               mean.wid = mean(halo.wid, na.rm=TRUE),
+               sd.wid   = sd(halo.wid, na.rm=TRUE),
+               se.wid   = sd.wid / sqrt(N.wid),
+
+               N.rad    = length(reef.rad),
+               mean.rad = mean(reef.rad, na.rm=TRUE),
+               sd.rad   = sd(reef.rad, na.rm=TRUE),
+               se.rad   = sd.rad / sqrt(N.rad),
+
+               N.ratio    = length(halo.reef.ratio),
+               mean.ratio = mean(halo.reef.ratio, na.rm=TRUE),
+               sd.ratio   = sd(halo.reef.ratio, na.rm=TRUE),
+               se.ratio   = sd.ratio / sqrt(N.ratio),
+
+               N.ratio.log    = length(halo.reef.ratio),
+               mean.ratio.log = mean(halo.reef.ratio.log, na.rm=TRUE), 
+               sd.ratio.log   = sd(halo.reef.ratio.log, na.rm=TRUE),
+               se.ratio.log   = sd.ratio.log / sqrt(N.ratio.log)
+)
+halodata_all_summary
+
+# calculate 95% confidence intervals for each y-variable
+temp <- summarySE(halodata_all, measurevar="halo.wid", groupvars=c("location","date"))
+halodata_all_summary$ci.wid <- temp$ci
+temp <- summarySE(halodata_all, measurevar="reef.rad", groupvars=c("location","date"))
+halodata_all_summary$ci.rad <- temp$ci
+temp <- summarySE(halodata_all, measurevar="halo.reef.ratio", groupvars=c("location","date"))
+halodata_all_summary$ci.ratio <- temp$ci
+temp <- summarySE(halodata_all, measurevar="halo.reef.ratio.log", groupvars=c("location","date"))
+halodata_all_summary$ci.ratio.log <- temp$ci
+
+library(tidyverse)
+library(lubridate) # shouldn't be necessary (lubridate is in tidyverse), but is
+halodata_all_summary$date <- ymd(halodata_all_summary$date)
+
+```
+
+
+```{r plotting_timeseries, echo=FALSE}
+
+# plot halo width w/se bars
+ggplot(halodata_all_summary, aes(x=date, y=mean.wid, colour=location)) + 
+    geom_errorbar(aes(ymin=mean.wid-se.wid, ymax=mean.wid+se.wid), width=.1) +
+    geom_line() +
+    geom_point()
+
+# plot reef area w/se bars as "control" for halo width (since reef area isn't expected to change over time)
+ggplot(halodata_all_summary, aes(x=date, y=mean.rad, colour=location)) + 
+    geom_errorbar(aes(ymin=mean.rad-se.rad, ymax=mean.rad+se.rad), width=.1) +
+    geom_line() +
+    geom_point()
+
+# plot ratio of halo.wid and reef.rad (to see if halos are disprop'ly changing size relative to ostensibly stable reef size)
+ggplot(halodata_all_summary, aes(x=date, y=mean.ratio, colour=location)) + 
+    geom_errorbar(aes(ymin=mean.ratio-se.ratio, ymax=mean.ratio+se.ratio), width=.1) +
+    geom_line() +
+    geom_point() + 
+    theme_bw()
+
+# plot log10 ratio of halo.wid and reef.rad 
+# goal: to determine if halos are disprop'ly changing size relative to ostensibly stable reef size)
+
+#install.packages("wesanderson") # for Wes Anderson-inspired color palette :) 
+library(wesanderson)
+names(wes_palettes)
+
+ggplot(halodata_all_summary, aes(x=date, y=mean.ratio.log, colour=location)) + 
+    geom_errorbar(aes(ymin=mean.ratio.log-ci.ratio.log, ymax=mean.ratio.log+ci.ratio.log), size = .7) +
+    coord_cartesian(ylim=c(-0.3, 0.3)) + # using just ylim throws out data outside of limits; use this instead
+    geom_line(size = 1.2) +
+    geom_point(size = 3) +
+    theme_bw()  +    # theme below rms gridlines, alters legend, etc.
+    theme(panel.border = element_blank(), panel.grid.major = element_blank(), 
+    panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"), legend.position = c(.2, 0.85), legend.title = element_blank()) +  
+    # note: legend.position coord values are always btwn 0 & 1;  
+    # c(0,0) corresponds to “bottom left” & c(1,1) = “top right” 
+    scale_color_manual(values = wes_palette("Chevalier1", n = 4)) +
+    xlab("Date") + 
+    ylab("log10(Halo width:Reef radius)") 
+                                      # Fig. 4B in manuscript
+  
+dev.copy(png,"output/halowidth_reefradius_ratio.png", width=400, height=400)
+dev.off()
+dev.copy(pdf,"output/halowidth_reefradius_ratio.pdf", width=4, height=4)
+dev.off()
+
+# same as above, but for ONLY Guam time series (since it's hard to read on plot above)
+halodata_all_summary_guam <- halodata_all_summary[halodata_all_summary$location == "guam",]
+
+ggplot(halodata_all_summary_guam, aes(x=date, y=mean.ratio.log, colour=location)) + 
+    geom_errorbar(aes(ymin=mean.ratio.log-ci.ratio.log, ymax=mean.ratio.log+ci.ratio.log), size = .7) +
+    coord_cartesian(ylim=c(-0.5, 0.5)) + 
+    geom_line(size = 1.2) +
+    geom_point(size = 3) +
+    theme_bw()  +    # theme below rms gridlines, alters legend, etc.
+    scale_color_manual(values = wes_palette("Chevalier1", n = 1)) +
+    theme(panel.border = element_blank(), panel.grid.major = element_blank(), 
+    panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"), 
+    legend.position = c(.85, 0.85), legend.title = element_blank()) +  
+    # note: legend.position coord values are always btwn 0 & 1;  
+    # c(0,0) corresponds to “bottom left” & c(1,1) = “top right” 
+    xlab("Date") + 
+    ylab("log10(Halo width:Reef radius)") 
+
+dev.copy(png,"output/halowidth_reefradius_ratio_guamonly.png", width=400, height=400)
+dev.off()
+dev.copy(pdf,"output/halowidth_reefradius_ratio_guamonly.pdf", width=4, height=4)
+dev.off()
+                                      # Fig. S1 in manuscript
+```
+
+## Part 2: Halo global survey data
+
+```{r data loading_globalpatterns, echo=FALSE}
+
+# import dataset
+globalsurvey <- read.csv("dat/base/GrazingHalos_GlobalSurvey_Data_AmNatArchived.csv", colClasses = "character")
+
+```
+
+
+```{r summarizing_globalpatterns, echo=FALSE}
+
+library(plyr)
+library(dplyr)
+
+## set dataset filters 
+globalsurvey_subset <- globalsurvey[globalsurvey$reef_visibility == "HP" | 
+            globalsurvey$reef_visibility == "NH",]
+            # filter out observations where halo detection is not possible
+            # by including only categories where halo presence/size can be determined: 
+                  # HP: Halos present
+                  # NH: No halos
+            # and excluding categories where halo presence/size can't be determined b/c 
+            # of physical or image issues: 
+                  # NP: No patch reefs
+                  # DR: Deep reef (too deep to discern background algae)
+                  # TF: Too faint (eg, background algae not enough to show halos)
+                  # BR: Bad resolution
+                  # CC: Cloud cover
+                  # SR: Surface reflectance
+
+globalsurvey_subset_inclNP <- globalsurvey[globalsurvey$reef_visibility == "HP" | 
+            globalsurvey$reef_visibility == "NH" | 
+            globalsurvey$reef_visibility == "NP",] # incl reefs w/ no patch reefs;
+                                                   # not very relevant since only
+                                                   # counting halos around patch reefs,
+                                                   # but useful for later analysis of all reefs globally
+## determine % of reefs that have halos 
+# Note that the following section only uses Stratified_AllReefs survey;
+  # including Stratified_NTOnly would not be standardized since NT reefs targeted for that survey.
+globalsurvey_subset_inclNP_standardizedsurvey <- globalsurvey_subset_inclNP[globalsurvey_subset_inclNP$survey_type == "Stratified_AllReefs",]                             # excludes NT-targeted survey
+
+  
+# across all reef habitat (ie, all reefs, not just those with patch reefs)
+              # (aka subset: ALL reef habitat with clear imagery)
+halopresence_inclNP <- ddply(globalsurvey_subset_inclNP_standardizedsurvey,
+               c("survey_type"), summarise,
+               halo_location_count = length(halo_area_km[halo_area_km > 0]),
+               reef_location_count = length(reef_area_km)
+)             #  category "survey_type" where survey_type == "Stratified_AllReefs" is
+              #  sampling globe evenly, at 0.1 degree latitude, and excludes 
+              # "Stratified_NTOnly" survey done as supplement to increase NT 
+              #  location sample size 
+halopresence_inclNP <- halopresence_inclNP[1,]
+              #  note: removes Stratified_NTOnly results, since for that survey, 
+              #  to save time, we only surveyed reefs w/ 1) clear imagery & 2) patch reefs, 
+              #  given that only these reefs are used in most analyses
+halopresence_inclNP$pct_reefs_with_halos <- 
+              (halopresence_inclNP$halo_location_count /     
+              halopresence_inclNP$reef_location_count) * 100
+halopresence_inclNP
+halopresence_inclNP$pct_reefs_with_halos   # returns % of world reefs w/halos
+
+
+# across all patch reef habitat
+              # (aka subset: ONLY patch reef habitat with clear imagery)
+globalsurvey_subset_standardizedsurvey <- globalsurvey_subset[globalsurvey_subset$survey_type == "Stratified_AllReefs",]                    # excludes NT-targeted survey, for reasons explained above
+
+halopresence <- ddply(globalsurvey_subset, c("survey_type"), 
+               summarise,
+               halo_location_count = length(halo_area_km[halo_area_km > 0]),
+               reef_location_count = length(reef_area_km)
+) 
+halopresence$pct_reefs_with_halos <- 
+              (halopresence$halo_location_count /     
+              halopresence$reef_location_count) * 100
+halopresence
+halopresence$pct_reefs_with_halos[1]   # returns % of world *patch* reefs w/halos
+              #  [1] indicates to only calculate based on Stratified_AllReefs survey 
+
+
+# broken down by ocean basin
+              # (using subset: ONLY patch reef habitat with clear imagery)
+halopresence_oceanbasin <- ddply(globalsurvey_subset_standardizedsurvey, 
+               c("ocean_basin"), summarise,
+               halo_location_count = length(halo_area_km[halo_area_km > 0]),
+               reef_location_count = length(reef_area_km)
+)
+halopresence_global <- ddply(globalsurvey_subset_standardizedsurvey, .(), summarise,
+               halo_location_count = length(halo_area_km[halo_area_km > 0]),
+               reef_location_count = length(reef_area_km)
+) 
+colnames(halopresence_global)[1] <- colnames(halopresence_oceanbasin)[1]
+halopresence_global$ocean_basin <- "Global"       # rename value for col ocean_basin
+halopresence_oceanbasin <- rbind(halopresence_oceanbasin, halopresence_global)
+halopresence_oceanbasin$pct_reefs_with_halos <-   # need to re-calc for Global
+              (halopresence_oceanbasin$halo_location_count /     
+              halopresence_oceanbasin$reef_location_count) * 100
+halopresence_oceanbasin
+
+
+# broken down by reef type
+              # (using subset: ALL reef habitats with clear imagery)
+halopresence_reeftype <- ddply(globalsurvey_subset_inclNP_standardizedsurvey, 
+               c("site_characterization"), summarise,
+               halo_location_count = length(halo_area_km[halo_area_km > 0]),
+               reef_location_count = length(reef_area_km)
+)
+halopresence_reeftype$pct_reefs_with_halos <- 
+              (halopresence_reeftype$halo_location_count /     
+              halopresence_reeftype$reef_location_count) * 100
+halopresence_reeftype 
+
+
+## determine proportion of surveyed reef area covered in halo fields 
+
+# across entire dataset 
+              # (using subset: ALL reef habitat with clear imagery)
+haloarea_inclNP <- ddply(globalsurvey_subset_inclNP_standardizedsurvey, .(), summarise,
+               halo_area_sum = sum(as.numeric(halo_area_km)),
+               reef_area_sum = sum(as.numeric(reef_area_km))
+)             # .() means don't parse by any variable; do analysis on whole dataset
+haloarea_inclNP$ratio_halo_to_reef_area <- 
+              (haloarea_inclNP$halo_area_sum /     
+              haloarea_inclNP$reef_area_sum)
+haloarea_inclNP # equation 1 in manuscript (ie, P = sum(h_i)/sum(r_i))
+
+
+# across entire dataset
+              # (using subset: ONLY patch reef habitat with clear imagery)
+haloarea <- ddply(globalsurvey_subset_standardizedsurvey, .(), summarise, 
+               halo_area_sum = sum(as.numeric(halo_area_km)),
+               reef_area_sum = sum(as.numeric(reef_area_km))
+)             # .() means don't parse by any variable; do analysis on whole dataset
+haloarea$ratio_halo_to_reef_area <- 
+              (haloarea$halo_area_sum /     
+              haloarea$reef_area_sum)
+haloarea      
+
+
+# broken down by ocean basin
+              # (using subset: ONLY patch reef habitat with clear imagery)
+haloarea_oceanbasin <- ddply(globalsurvey_subset_standardizedsurvey, 
+               c("ocean_basin"), summarise,
+               halo_area_sum = sum(as.numeric(halo_area_km)),
+               reef_area_sum = sum(as.numeric(reef_area_km))
+)
+haloarea_global <- ddply(globalsurvey_subset_standardizedsurvey, .(), summarise,
+               halo_area_sum = sum(as.numeric(halo_area_km)),
+               reef_area_sum = sum(as.numeric(reef_area_km))
+) 
+colnames(haloarea_global)[1] <- colnames(haloarea_oceanbasin)[1]
+haloarea_global$ocean_basin <- "Global"       # rename value for col ocean_basin
+haloarea_oceanbasin <- rbind(haloarea_oceanbasin, haloarea_global)
+haloarea_oceanbasin$ratio_halo_to_reef_area <- 
+              (haloarea_oceanbasin$halo_area_sum /     
+              haloarea_oceanbasin$reef_area_sum)
+haloarea_oceanbasin
+
+
+## determine estimated area of ALL reefs globally expected to be covered in halo fields 
+haloarea_global_estimate <- haloarea_inclNP$ratio_halo_to_reef_area * 284300
+              # 284,300  km2 = best current estimate of total reef area globally 
+              # (source: Spalding MD, Ravilious C, Green EP (2001) World Atlas of Coral
+              # Reefs. University of California Press, Berkeley, USA)
+haloarea_global_estimate     # equation 2 in manuscript (ie, A = P * T)
+
+# and calculate the % of the total area covered by coral reefs globally that we surveyed
+              # (using subset: ALL reef habitat with clear imagery)
+reefarea_pct_of_global_total_surveyed <- 
+              haloarea_inclNP$reef_area_sum / 284300
+reefarea_pct_of_global_total_surveyed
+
+```
+
+
+```{r plotting_globalpatterns, echo=FALSE}
+
+## plot % of reefs with halos present
+
+# by ocean basin - as barplot
+halopresence_oceanbasin_plot <-
+ggplot(data=halopresence_oceanbasin, aes(x=ocean_basin, y=pct_reefs_with_halos)) +
+    geom_bar(colour="black", stat="identity", fill="lightgrey") +
+    theme_bw()  +    # theme below rms gridlines, alters legend, etc.
+    theme(panel.border = element_blank(), panel.grid.major = element_blank(), 
+    panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
+    guides(fill="none") + 
+    theme(axis.text.x=element_text(angle = 60, vjust = 0.5)) + 
+    xlab("Ocean basin") + 
+    ylab("Halo presence 
+         (% surveyed reefs with halos)") +
+    labs(tag = "B")     # add panel lettering (for multi-panel plot created below)
+halopresence_oceanbasin_plot              # Fig. 2 in manuscript
+
+dev.copy(png,"output/halopresence_oceanbasin.png", width=400, height=400)
+dev.off()
+dev.copy(pdf,"output/halopresence_oceanbasin.pdf", width=4, height=4)
+dev.off()
+
+
+## plot **area** of global reefs covered in halo fields
+
+# by ocean basin - as barplot
+haloarea_oceanbasin_plot <-
+  ggplot(data=haloarea_oceanbasin, aes(x=ocean_basin, y=ratio_halo_to_reef_area)) +
+      geom_bar(colour="black", stat="identity", fill="lightgrey") +
+      theme_bw()  +    # theme below rms gridlines, alters legend, etc.
+      theme(panel.border = element_blank(), panel.grid.major = element_blank(), 
+      panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
+      guides(fill=none) + 
+      theme(axis.text.x=element_text(angle = 60, vjust = 0.5)) + 
+      xlab("Ocean basin") + 
+      ylab("Ratio of halo area to reef area")
+haloarea_oceanbasin_plot
+
+```

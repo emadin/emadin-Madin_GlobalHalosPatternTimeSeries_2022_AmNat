@@ -1,0 +1,560 @@
+reef_id,survey_type,country,reef_area_ha,reef_area_km,reef_count,halo_area_ha,halo_area_km,halo_count,reef_visibility,ocean_basin,site_characterization,image_date,image_year
+R00001,Stratified_AllReefs,São Tomé and Príncipe,141,1.41,1,0,0,0,NH,S. Atlantic,Aggregate Reef,2/8/16,2016
+R00002,Stratified_AllReefs,Indonesia,45,0.45,1,0,0,0,NH,Indian ,Aggregate Reef,5/29/15,2015
+R00003,Stratified_AllReefs,Indonesia,48.5,0.485,1,0,0,0,NH,Indian ,Aggregate Reef,5/29/15,2015
+R00004,Stratified_AllReefs,Indonesia,68.6,0.686,1,0,0,0,NH,Indian ,Aggregate Reef,12/20/13,2013
+R00005,Stratified_AllReefs,Indonesia,80.4,0.804,1,0,0,0,BR,Indian ,Aggregate Reef,7/23/14,2014
+R00006,Stratified_AllReefs,Indonesia,189,1.89,1,0,0,0,BR,Indian ,Aggregate Reef,12/5/12,2012
+R00007,Stratified_AllReefs,Indonesia,148,1.48,1,0,0,0,BR,Indian ,Aggregate Reef,12/5/12,2012
+R00008,Stratified_AllReefs,Indonesia,62.6,0.626,1,0,0,0,NH,S. Pacific,Aggregate Reef,7/5/16,2016
+R00009,Stratified_AllReefs,Indonesia,25,0.25,1,0,0,0,NH,S. Pacific,Aggregate Reef,8/31/15,2015
+R00010,Stratified_AllReefs,Indonesia,136,1.36,1,0,0,0,NH,S. Pacific,Aggregate Reef,11/20/10,2010
+R00011,Stratified_AllReefs,Indonesia,27.41,0.2741,1,0,0,0,NH,S. Pacific,Patch Reef,2/1/15,2015
+R00012,Stratified_AllReefs,Indonesia,19.2,0.192,1,0,0,0,NH,S. Pacific,Aggregate Reef,2/1/15,2015
+R00013,Stratified_AllReefs,Equador,26.5,0.265,1,0,0,0,NH,S. Pacific,Aggregate Reef,12/1/14,2012
+R00014,Stratified_AllReefs,Indonesia,99.9,0.999,1,0,0,0,NH,Indian ,Aggregate Reef,2/9/14,2014
+R00015,Stratified_AllReefs,Indonesia,35.1,0.351,1,0,0,0,NH,Indian ,Aggregate Reef,2/25/14,2014
+R00016,Stratified_AllReefs,Indonesia,35,0.35,1,0,0,0,NH,Indian ,Aggregate Reef,2/25/14,2014
+R00017,Stratified_AllReefs,Indonesia,15,0.15,1,0,0,0,NH,Indian ,Aggregate Reef,2/25/14,2014
+R00018,Stratified_AllReefs,Indonesia,30,0.3,1,0,0,0,NH,Indian ,Aggregate Reef,4/27/12,2012
+R00019,Stratified_AllReefs,Indonesia,81,0.81,1,0,0,0,NH,N. Pacific,Aggregate Reef,2/26/14,2014
+R00020,Stratified_AllReefs,Indonesia,171,1.71,1,0,0,0,NH,N. Pacific,Aggregate Reef,2/26/14,2014
+R00021,Stratified_AllReefs,Indonesia,172,1.72,1,0,0,0,NH,N. Pacific,Aggregate Reef,8/24/14,2014
+R00022,Stratified_AllReefs,Indonesia,24,0.24,1,0,0,0,NH,N. Pacific,Aggregate Reef,5/10/11,2011
+R00023,Stratified_AllReefs,Indonesia,113.1,1.131,1,0,0,0,NH,N. Pacific,Aggregate Reef,11/16/17,2017
+R00024,Stratified_AllReefs,Indonesia,13.13,0.1313,1,0,0,0,NH,N. Pacific,Aggregate Reef,12/4/18,2018
+R00025,Stratified_AllReefs,Indonesia,7.8,0.078,1,0,0,0,DR,N. Pacific,Aggregate Reef,7/10/15,2015
+R00026,Stratified_AllReefs,Indonesia,43.7,0.437,1,0,0,0,NH,N. Pacific,Aggregate Reef,5/1/12,2012
+R00027,Stratified_AllReefs,Somalia,477,4.77,1,0,0,0,NH,Indian ,Aggregate Reef,5/14/11,2011
+R00028,Stratified_AllReefs,Indonesia,110.5,1.105,1,0,0,0,NH,Indian ,Aggregate Reef,1/12/15,2015
+R00029,Stratified_AllReefs,Indonesia,10.2,0.102,1,0,0,0,NH,S. Pacific,Aggregate Reef,7/25/18,2018
+R00030,Stratified_AllReefs,Indonesia,7.12,0.0712,1,0,0,0,NH,S. Pacific,Aggregate Reef,7/25/18,2018
+R00031,Stratified_AllReefs,Indonesia,24.4,0.244,1,0,0,0,NH,S. Pacific,Aggregate Reef,7/25/18,2018
+R00032,Stratified_AllReefs,Indonesia,26.2,0.262,1,0,0,0,NH,S. Pacific,Aggregate Reef,7/5/17,2017
+R00033,Stratified_AllReefs,Indonesia,171,1.71,1,0,0,0,NH,S. Pacific,Patch Reef,3/10/14,2014
+R00034,Stratified_AllReefs,Indonesia,63.6,0.636,1,0,0,0,NH,S. Pacific,Aggregate Reef,12/18/13,2013
+R00035,Stratified_AllReefs,Indonesia,24.5,0.245,1,0,0,0,NH,S. Pacific,Aggregate Reef,9/15/10,2010
+R00036,Stratified_AllReefs,Indonesia,387.6,3.876,1,13.22,0.1322,1,HP,S. Pacific,Patch Reef,4/11/18,2018
+R00037,Stratified_AllReefs,Indonesia,25,0.25,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/12/10,2010
+R00038,Stratified_AllReefs,Indonesia,127,1.27,1,0,0,0,BR,S. Pacific,Aggregate Reef,6/30/12,2012
+R00039,Stratified_AllReefs,Indonesia,261,2.61,1,0,0,0,NH,S. Pacific,Aggregate Reef,6/30/12,2012
+R00040,Stratified_AllReefs,Indonesia,25.9,0.259,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/30/12,2012
+R00041,Stratified_AllReefs,Indonesia,18.5,0.185,1,0,0,0,NP,S. Pacific,Spur and Groove,9/27/12,2012
+R00042,Stratified_AllReefs,Maldives,115.8,1.158,1,0,0,0,NH,Indian ,Patch Reef,9/17/14,2012
+R00043,Stratified_AllReefs,Indonesia,539,5.39,1,0,0,0,NH,N. Pacific,Aggregate Reef,6/25/12,2012
+R00044,Stratified_AllReefs,Indonesia,20,0.2,1,0,0,0,NH,N. Pacific,Aggregate Reef,5/18/16,2016
+R00045,Stratified_AllReefs,Indonesia,46.3,0.463,1,0,0,0,NH,N. Pacific,Aggregate Reef,3/30/13,2013
+R00046,Stratified_AllReefs,Indonesia,45.6,0.456,1,0,0,0,NH,N. Pacific,Aggregate Reef,10/23/17,2017
+R00047,Stratified_AllReefs,Kiribati,54.6,0.546,1,0,0,0,NH,N. Pacific,Aggregate Reef,10/1/17,2017
+R00048,Stratified_AllReefs,Kiribati,60.5,0.605,1,0,0,0,NH,N. Pacific,Aggregate Reef,12/16/13,2013
+R00049,Stratified_AllReefs,Kenya,69.7,0.697,1,0,0,0,DR,Indian ,Aggregate Reef,2/1/12,2012
+R00050,Stratified_AllReefs,Indonesia,179,1.79,1,0,0,0,NH,Indian ,Aggregate Reef,11/26/18,2018
+R00051,Stratified_AllReefs,Indonesia,25,0.25,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/29/15,2015
+R00052,Stratified_AllReefs,Indonesia,397,3.97,1,0,0,0,NH,S. Pacific,Aggregate Reef,2/5/14,2014
+R00053,Stratified_AllReefs,Indonesia,515,5.15,1,28.9,0.289,1,HP,S. Pacific,Patch Reef,2/5/14,2014
+R00054,Stratified_AllReefs,Indonesia,210,2.1,1,0,0,0,NP,S. Pacific,Aggregate Reef,8/7/19,2019
+R00055,Stratified_AllReefs,Indonesia,22.8,0.228,1,0,0,0,NH,S. Pacific,Aggregate Reef,3/25/15,2015
+R00056,Stratified_AllReefs,Indonesia,39.9,0.399,1,0,0,0,NP,S. Pacific,Aggregate Reef,3/25/15,2015
+R00057,Stratified_AllReefs,Indonesia,136,1.36,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/29/13,2013
+R00058,Stratified_AllReefs,Indonesia,18,0.18,1,0,0,0,NH,S. Pacific,Patch Reef,1/6/14,2014
+R00059,Stratified_AllReefs,Indonesia,256,2.56,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/15/15,2015
+R00060,Stratified_AllReefs,Indonesia,75.6,0.756,1,0,0,0,NP,S. Pacific,Aggregate Reef,10/2/14,2014
+R00061,Stratified_AllReefs,Indonesia,226.5,2.265,1,0,0,0,BR,S. Pacific,Patch Reef,10/2/14,2014
+R00062,Stratified_AllReefs,Indonesia,127.5,1.275,1,0,0,0,BR,S. Pacific,Patch Reef,4/9/12,2012
+R00063,Stratified_AllReefs,Indonesia,79.44,0.7944,1,0,0,0,NH,S. Pacific,Patch Reef,9/25/15,2015
+R00064,Stratified_AllReefs,Indonesia,72.6,0.726,1,0,0,0,NH,S. Pacific,Aggregate Reef,10/8/12,2012
+R00065,Stratified_AllReefs,Indonesia,210,2.1,1,112,1.12,1,HP,S. Pacific,Patch Reef,7/12/10,2010
+R00066,Stratified_AllReefs,Maldives,374.2,3.742,1,0,0,0,NH,Indian ,Aggregate Reef,10/15/10,2010
+R00067,Stratified_AllReefs,Maldives,63.5,0.635,1,0,0,0,BR,Indian ,Aggregate Reef,12/21/18,2018
+R00068,Stratified_AllReefs,Maldives,180,1.8,1,0,0,0,NH,Indian ,Aggregate Reef,12/21/18,2018
+R00069,Stratified_AllReefs,Indonesia,29.4,0.294,1,0,0,0,NH,N. Pacific,Aggregate Reef,12/26/19,2019
+R00070,Stratified_AllReefs,Indonesia,16,0.16,1,0,0,0,NH,N. Pacific,Aggregate Reef,12/26/19,2019
+R00071,Stratified_AllReefs,Indonesia,58.2,0.582,1,0,0,0,NH,N. Pacific,Aggregate Reef,4/16/16,2016
+R00072,Stratified_AllReefs,Indonesia,61.29,0.6129,1,0,0,0,NH,N. Pacific,Aggregate Reef,4/26/18,2018
+R00073,Stratified_AllReefs,Indonesia,53.37,0.5337,1,0,0,0,NH,N. Pacific,Aggregate Reef,4/17/11,2011
+R00074,Stratified_AllReefs,Indonesia,223.5,2.235,1,0,0,0,NH,N. Pacific,Aggregate Reef,12/26/19,2019
+R00075,Stratified_AllReefs,Palau,28.7,0.287,1,0,0,0,NH,N. Pacific,Aggregate Reef,6/6/06,2006
+R00076,Stratified_AllReefs,Indonesia,0,0,1,0,0,0,BR,Indian ,Aggregate Reef,7/12/12,2012
+R00077,Stratified_AllReefs,Indonesia,26,0.26,1,0,0,0,NP,Indian ,Aggregate Reef,2/26/14,2014
+R00078,Stratified_AllReefs,Indonesia,11,0.11,1,0,0,0,NP,S. Pacific,Aggregate Reef,3/9/19,2019
+R00079,Stratified_AllReefs,Indonesia,168,1.68,1,0,0,0,NP,S. Pacific,Aggregate Reef,3/9/19,2019
+R00080,Stratified_AllReefs,Indonesia,66.5,0.665,1,0,0,0,NP,S. Pacific,Aggregate Reef,4/25/10,2010
+R00081,Stratified_AllReefs,Indonesia,32.5,0.325,1,0,0,0,NP,S. Pacific,Spur and Groove,4/25/10,2010
+R00082,Stratified_AllReefs,Indonesia,203.63,2.0363,1,0,0,0,NH,S. Pacific,Aggregate Reef,2/5/14,2014
+R00083,Stratified_AllReefs,Indonesia,52.6,0.526,1,0,0,0,NP,S. Pacific,Aggregate Reef,3/16/11,2011
+R00084,Stratified_AllReefs,Indonesia,67.5,0.675,1,0,0,0,NP,S. Pacific,Aggregate Reef,10/24/18,2018
+R00085,Stratified_AllReefs,Indonesia,195.6,1.956,1,0,0,0,NH,S. Pacific,Aggregate Reef,11/8/12,2012
+R00086,Stratified_AllReefs,Indonesia,15.2,0.152,1,0,0,0,NP,S. Pacific,Aggregate Reef,1/13/20,2020
+R00087,Stratified_AllReefs,Indonesia,9.25,0.0925,1,0,0,0,NP,S. Pacific,Aggregate Reef,1/13/20,2020
+R00088,Stratified_AllReefs,Indonesia,14.81,0.1481,1,0,0,0,NP,S. Pacific,Aggregate Reef,5/12/19,2019
+R00089,Stratified_AllReefs,Indonesia,10.6,0.106,1,0,0,0,NP,S. Pacific,Aggregate Reef,5/12/19,2019
+R00090,Stratified_AllReefs,Indonesia,23.9,0.239,1,0,0,0,BR,S. Pacific,Aggregate Reef,7/8/15,2015
+R00091,Stratified_AllReefs,Papua New Guinea,23.4,0.234,1,0,0,0,NP,S. Pacific,Aggregate Reef,8/27/09,2009
+R00092,Stratified_AllReefs,Maldives,70.7,0.707,1,0,0,0,NH,Indian ,Aggregate Reef,12/14/16,2016
+R00093,Stratified_AllReefs,Maldives,89.23,0.8923,1,0,0,0,NH,Indian ,Aggregate Reef,12/14/16,2016
+R00094,Stratified_AllReefs,Maldives,74.7,0.747,1,0,0,0,NH,Indian ,Aggregate Reef,12/14/16,2016
+R00095,Stratified_AllReefs,Indonesia,45.2,0.452,1,0,0,0,NH,N. Pacific,Aggregate Reef,10/31/13,2013
+R00096,Stratified_AllReefs,Indonesia,31.1,0.311,1,0,0,0,NH,N. Pacific,Aggregate Reef,10/14/16,2016
+R00097,Stratified_AllReefs,Indonesia,116.4,1.164,1,0,0,0,NH,N. Pacific,Aggregate Reef,10/14/16,2016
+R00098,Stratified_AllReefs,Kenya,196,1.96,1,0,0,0,NP,Indian ,Aggregate Reef,5/18/20,2020
+R00099,Stratified_AllReefs,Indonesia,106,1.06,1,0,0,0,NP,S. Pacific,Aggregate Reef,1/21/20,2020
+R00100,Stratified_AllReefs,Indonesia,27,0.27,1,0,0,0,NP,S. Pacific,Aggregate Reef,9/25/17,2017
+R00101,Stratified_AllReefs,Indonesia,170,1.7,1,0,0,0,NP,S. Pacific,Aggregate Reef,9/2/14,2014
+R00102,Stratified_AllReefs,Indonesia,240,2.4,1,0,0,0,NH,S. Pacific,Aggregate Reef,7/25/18,2018
+R00103,Stratified_AllReefs,Indonesia,76.6,0.766,1,0,0,0,NP,S. Pacific,Aggregate Reef,10/19/19,2019
+R00104,Stratified_AllReefs,Indonesia,82.4,0.824,1,0,0,0,NP,S. Pacific,Aggregate Reef,5/6/12,2012
+R00105,Stratified_AllReefs,Indonesia,47.6,0.476,1,0,0,0,NP,S. Pacific,Aggregate Reef,5/6/12,2012
+R00106,Stratified_AllReefs,Indonesia,43,0.43,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/23/11,2011
+R00107,Stratified_AllReefs,Indonesia,86.4,0.864,1,0,0,0,NP,S. Pacific,Aggregate Reef,4/18/13,2013
+R00108,Stratified_AllReefs,Indonesia,6.3,0.063,1,0,0,0,NH,S. Pacific,Patch Reef,2/18/12,2012
+R00109,Stratified_AllReefs,Indonesia,14.6,0.146,1,0,0,0,BR,S. Pacific,Patch Reef,2/18/12,2012
+R00110,Stratified_AllReefs,Indonesia,17,0.17,1,0,0,0,DR,S. Pacific,Aggregate Reef,2/18/12,2012
+R00111,Stratified_AllReefs,Indonesia,13.4,0.134,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/23/16,2016
+R00112,Stratified_AllReefs,Indonesia,13.9,0.139,1,0,0,0,NP,S. Pacific,Aggregate Reef,11/30/17,2017
+R00113,Stratified_AllReefs,Indonesia,116,1.16,1,0,0,0,NP,S. Pacific,Aggregate Reef,11/30/17,2017
+R00114,Stratified_AllReefs,Kiribati,77.2,0.772,1,0,0,0,NP,S. Pacific,Spur and Groove,10/27/14,2014
+R00115,Stratified_AllReefs,Maldives,102.7,1.027,1,0,0,0,NH,Indian ,Aggregate Reef,3/30/14,2014
+R00116,Stratified_AllReefs,Indonesia,57.2,0.572,1,0,0,0,NH,N. Pacific,Aggregate Reef,1/17/15,2015
+R00117,Stratified_AllReefs,Indonesia,303.2,3.032,1,108,1.08,1,HP,N. Pacific,Patch Reef,4/21/14,2014
+R00118,Stratified_AllReefs,Indonesia,157,1.57,1,0,0,0,NH,N. Pacific,Aggregate Reef,4/21/14,2014
+R00119,Stratified_AllReefs,Tanzania,106,1.06,1,0,0,0,NP,Indian ,Aggregate Reef,1/11/14,2014
+R00120,Stratified_AllReefs,Tanzania,146.7,1.467,1,0,0,0,NH,Indian ,Aggregate Reef,12/15/15,2015
+R00121,Stratified_AllReefs,Tanzania,68.5,0.685,1,0,0,0,NP,Indian ,Aggregate Reef,8/16/17,2017
+R00122,Stratified_AllReefs,Indonesia,412.3,4.123,1,0,0,0,BR,S. Pacific,N/A,12/1/09,2009
+R00123,Stratified_AllReefs,Indonesia,90.7,0.907,1,0,0,0,BR,S. Pacific,N/A,12/1/09,2009
+R00124,Stratified_AllReefs,Indonesia,33,0.33,1,0,0,0,NH,S. Pacific,Patch Reef,6/26/12,2012
+R00125,Stratified_AllReefs,Indonesia,3.22,0.0322,1,0,0,0,NP,S. Pacific,Aggregate Reef,10/14/04,2004
+R00126,Stratified_AllReefs,Papua New Guinea,22.6,0.226,1,0,0,0,NP,S. Pacific,Aggregate Reef,8/19/19,2019
+R00127,Stratified_AllReefs,Papua New Guinea,119,1.19,1,0,0,0,BR,S. Pacific,Aggregate Reef,9/29/03,2003
+R00128,Stratified_AllReefs,Maldives,210.9,2.109,1,0,0,0,NH,Indian ,Aggregate Reef,4/1/05,2005
+R00129,Stratified_AllReefs,Sri Lanka,165,1.65,1,0,0,0,DR,Indian ,Aggregate Reef,2/6/17,2017
+R00130,Stratified_AllReefs,Indonesia,73.7,0.737,1,0,0,0,NH,N. Pacific,Patch Reef,10/14/14,2014
+R00131,Stratified_AllReefs,Indonesia,84.6,0.846,1,0,0,0,NH,N. Pacific,Patch Reef,2/23/19,2019
+R00132,Stratified_AllReefs,Indonesia,97.5,0.975,1,0,0,0,NP,N. Pacific,Aggregate Reef,2/23/19,2019
+R00133,Stratified_AllReefs,Indonesia,61.9,0.619,1,0,0,0,NH,N. Pacific,Patch Reef,2/23/19,2019
+R00134,Stratified_AllReefs,Indonesia,74.7,0.747,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/21/19,2019
+R00135,Stratified_AllReefs,Indonesia,51.2,0.512,1,0,0,0,NH,N. Pacific,Patch Reef,5/21/19,2019
+R00136,Stratified_AllReefs,Indonesia,16.1,0.161,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/21/19,2019
+R00137,Stratified_AllReefs,Indonesia,67.4,0.674,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/25/15,2015
+R00138,Stratified_AllReefs,Marshall Islands,211,2.11,1,0,0,0,NH,N. Pacific,Patch Reef,12/16/10,2010
+R00139,Stratified_AllReefs,Marshall Islands,24.9,0.249,1,0,0,0,NH,N. Pacific,Patch Reef,5/26/16,2016
+R00140,Stratified_AllReefs,Marshall Islands,11.6,0.116,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/26/16,2016
+R00141,Stratified_AllReefs,Marshall Islands,350,3.5,1,0,0,0,NH,N. Pacific,Patch Reef,10/11/14,2014
+R00142,Stratified_AllReefs,Tanzania,6,0.06,1,0,0,0,NP,Indian ,Aggregate Reef,8/9/18,2018
+R00143,Stratified_AllReefs,Tanzania,241,2.41,1,0,0,0,NP,Indian ,Aggregate Reef,8/9/18,2018
+R00144,Stratified_AllReefs,Indonesia,46.9,0.469,1,0,0,0,NP,S. Pacific,Aggregate Reef,8/17/18,2018
+R00145,Stratified_AllReefs,Indonesia,3.2,0.032,1,0,0,0,NP,S. Pacific,Aggregate Reef,8/30/12,2012
+R00146,Stratified_AllReefs,Indonesia,13.8,0.138,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/24/13,2013
+R00147,Stratified_AllReefs,Indonesia,17.8,0.178,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/24/13,2013
+R00148,Stratified_AllReefs,Indonesia,421,4.21,1,153,1.53,1,HP,S. Pacific,Patch Reef,4/12/14,2014
+R00149,Stratified_AllReefs,Indonesia,35.3,0.353,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/9/14,2014
+R00150,Stratified_AllReefs,Indonesia,192,1.92,1,0,0,0,NP,S. Pacific,Aggregate Reef,10/18/17,2017
+R00151,Stratified_AllReefs,Papua New Guinea,288,2.88,1,0,0,0,NP,S. Pacific,Aggregate Reef,10/10/14,2014
+R00152,Stratified_AllReefs,Solomon Islands,61.5,0.615,1,0,0,0,NP,S. Pacific,Aggregate Reef,10/17/13,2013
+R00153,Stratified_AllReefs,Maldives,317.6,3.176,1,0,0,0,NH,Indian ,Patch Reef,7/13/16,2016
+R00154,Stratified_AllReefs,India,29,0.29,1,0,0,0,NH,Indian ,Aggregate Reef,12/12/17,2017
+R00155,Stratified_AllReefs,Indonesia,40.3,0.403,1,0,0,0,NP,N. Pacific,Aggregate Reef,8/28/18,2018
+R00156,Stratified_AllReefs,Indonesia,23.8,0.238,1,0,0,0,NP,N. Pacific,Aggregate Reef,6/7/10,2010
+R00157,Stratified_AllReefs,Indonesia,211,2.11,1,0,0,0,NP,N. Pacific,Aggregate Reef,6/19/12,2012
+R00158,Stratified_AllReefs,Indonesia,75.2,0.752,1,0,0,0,NP,N. Pacific,Aggregate Reef,9/23/19,2019
+R00159,Stratified_AllReefs,Indonesia,340,3.4,1,0,0,0,BR,N. Pacific,N/A,12/1/16,2016
+R00160,Stratified_AllReefs,Indonesia,178.7,1.787,1,0,0,0,NP,N. Pacific,Aggregate Reef,2/26/19,2019
+R00161,Stratified_AllReefs,Indonesia,123,1.23,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/25/18,2018
+R00162,Stratified_AllReefs,Indonesia,33.5,0.335,1,0,0,0,NH,N. Pacific,Patch Reef,5/6/17,2017
+R00163,Stratified_AllReefs,Indonesia,5.56,0.0556,1,0,0,0,BR,N. Pacific,Aggregate Reef,3/16/18,2018
+R00164,Stratified_AllReefs,Indonesia,22.4,0.224,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/25/20,2020
+R00165,Stratified_AllReefs,Palau,83.3,0.833,1,0,0,0,NP,N. Pacific,Aggregate Reef,12/25/19,2019
+R00166,Stratified_AllReefs,Micronesia,200.3,2.003,1,0,0,0,NP,N. Pacific,Aggregate Reef,12/1/16,2016
+R00167,Stratified_AllReefs,Micronesia,512.1,5.121,1,0,0,0,NP,N. Pacific,Aggregate Reef,1/20/20,2020
+R00168,Stratified_AllReefs,Marshall Islands,461.2,4.612,1,0,0,0,NH,N. Pacific,Patch Reef,7/11/16,2016
+R00169,Stratified_AllReefs,Tanzania,23.4,0.234,1,0,0,0,NP,Indian ,Aggregate Reef,11/2/18,2018
+R00170,Stratified_AllReefs,Seychelles,174,1.74,1,0,0,0,NP,Indian ,Aggregate Reef,4/25/05,2005
+R00171,Stratified_AllReefs,Indonesia,94.2,0.942,1,0,0,0,NP,Indian ,Aggregate Reef,12/1/05,2005
+R00172,Stratified_AllReefs,Indonesia,387,3.87,1,0,0,0,NP,S. Pacific,Aggregate Reef,4/1/17,2017
+R00173,Stratified_AllReefs,Indonesia,1987.5,19.875,1,106,1.06,1,HP,S. Pacific,Patch Reef,5/1/17,2017
+R00174,Stratified_AllReefs,Indonesia,88.6,0.886,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/19/13,2013
+R00175,Stratified_AllReefs,Indonesia,293,2.93,1,0,0,0,NP,S. Pacific,Aggregate Reef,8/23/13,2013
+R00176,Stratified_AllReefs,Indonesia,135,1.35,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/19/13,2013
+R00177,Stratified_AllReefs,Indonesia,86.6,0.866,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/30/13,2013
+R00178,Stratified_AllReefs,Solomon Islands,55,0.55,1,0,0,0,BR,S. Pacific,N/A,12/1/03,2003
+R00179,Stratified_AllReefs,Solomon Islands,115.5,1.155,1,0,0,0,BR,S. Pacific,N/A,12/1/16,2016
+R00180,Stratified_AllReefs,Solomon Islands,221,2.21,1,0,0,0,BR,S. Pacific,N/A,12/1/15,2015
+R00181,Stratified_AllReefs,Solomon Islands,30.8,0.308,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/30/15,2015
+R00182,Stratified_AllReefs,Brazil,124,1.24,1,0,0,0,NH,S. Atlantic,Patch Reef,5/1/18,2018
+R00183,Stratified_AllReefs,Sri Lanka,88.5,0.885,1,0,0,0,NP,Indian ,Aggregate Reef,1/12/13,2013
+R00184,Stratified_AllReefs,India,46.4,0.464,1,0,0,0,NP,Indian ,Aggregate Reef,1/12/13,2013
+R00185,Stratified_AllReefs,India,211.6,2.116,1,0,0,0,NP,Indian ,Aggregate Reef,1/18/11,2011
+R00186,Stratified_AllReefs,Vietnam,377,3.77,1,0,0,0,NH,N. Pacific,Patch Reef,10/31/18,2018
+R00187,Stratified_AllReefs,Philippines,113.1,1.131,1,3.43,0.0343,1,HP,N. Pacific,Patch Reef,10/31/18,2018
+R00188,Stratified_AllReefs,Philippines,45.9,0.459,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/26/20,2020
+R00189,Stratified_AllReefs,Philippines,73.6,0.736,1,7.97,0.0797,1,HP,N. Pacific,Patch Reef,6/6/17,2017
+R00190,Stratified_AllReefs,Philippines,138,1.38,1,0,0,0,BR,N. Pacific,Patch Reef,6/6/17,2017
+R00191,Stratified_AllReefs,Philippines,105,1.05,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/13/16,2016
+R00192,Stratified_AllReefs,Palau,545,5.45,1,0,0,0,NP,N. Pacific,Patch Reef,1/16/06,2006
+R00193,Stratified_AllReefs,Marshall Islands,143.3,1.433,1,0,0,0,BR,N. Pacific,N/A,12/1/16,2016
+R00194,Stratified_AllReefs,Panama,70.9,0.709,1,0,0,0,BR,N. Pacific,N/A,8/1/09,2009
+R00195,Stratified_AllReefs,Tanzania,1775.7,17.757,1,0,0,0,NH,Indian ,Patch Reef,6/21/17,2017
+R00196,Stratified_AllReefs,Indonesia,189.8,1.898,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/25/19,2019
+R00197,Stratified_AllReefs,Indonesia,40.1,0.401,1,0,0,0,NP,S. Pacific,Aggregate Reef,9/7/09,2009
+R00198,Stratified_AllReefs,Indonesia,14.8,0.148,1,0,0,0,NP,S. Pacific,Aggregate Reef,9/16/12,2012
+R00199,Stratified_AllReefs,Indonesia,22.4,0.224,1,0,0,0,NP,S. Pacific,Aggregate Reef,4/3/11,2011
+R00200,Stratified_AllReefs,Indonesia,477,5,1,0,0,0,NP,S. Pacific,Aggregate Reef,11/11/13,2013
+R00201,Stratified_AllReefs,Indonesia,190.5,1.905,1,0,0,0,NP,S. Pacific,Aggregate Reef,11/11/13,2013
+R00202,Stratified_AllReefs,Solomon Islands,29.71,0.2971,1,0,0,0,NP,S. Pacific,Aggregate Reef,2/8/13,2013
+R00203,Stratified_AllReefs,Solomon Islands,42.2,0.422,1,0,0,0,NP,S. Pacific,Aggregate Reef,9/14/13,2013
+R00204,Stratified_AllReefs,Solomon Islands,96.4,0.964,1,0,0,0,BR,S. Pacific,N/A,12/1/01,2001
+R00205,Stratified_AllReefs,Solomon Islands,204.7,2.047,1,0,0,0,NP,S. Pacific,Aggregate Reef,3/4/12,2012
+R00206,Stratified_AllReefs,Tuvalu,116.2,1.162,1,0,0,0,NH,S. Pacific,Patch Reef,6/21/09,2009
+R00207,Stratified_AllReefs,Sri Lanka,1020,10.2,1,0,0,0,NP,Indian ,Aggregate Reef,3/21/19,2019
+R00208,Stratified_AllReefs,Philippines,129,1.29,1,0,0,0,NP,N. Pacific,Aggregate Reef,2/21/15,2015
+R00209,Stratified_AllReefs,Philippines,13,0.13,1,0,0,0,NP,N. Pacific,Aggregate Reef,8/28/18,2018
+R00210,Stratified_AllReefs,Philippines,209.9,2.099,1,0,0,0,NP,N. Pacific,Aggregate Reef,1/19/16,2016
+R00211,Stratified_AllReefs,Marshall Islands,169.1,1.691,1,0,0,0,NP,N. Pacific,Aggregate Reef,12/26/05,2005
+R00212,Stratified_AllReefs,Marshall Islands,43,0.43,1,0,0,0,NH,N. Pacific,Aggregate Reef,11/2/05,2005
+R00213,Stratified_AllReefs,Angola,294,2.94,1,0,0,0,NP,S. Atlantic,Aggregate Reef,5/16/15,2015
+R00214,Stratified_AllReefs,Tanzania,129.4,1.294,1,0,0,0,NH,Indian ,Patch Reef,5/29/20,2020
+R00215,Stratified_AllReefs,Indonesia,68.6,0.686,1,0,0,0,NP,Indian ,Aggregate Reef,9/28/17,2017
+R00216,Stratified_AllReefs,Timor-Leste,174,1.74,1,0,0,0,NP,S. Pacific,Aggregate Reef,11/2/12,2012
+R00217,Stratified_AllReefs,Papua New Guinea,29,0.29,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/30/16,2016
+R00218,Stratified_AllReefs,Papua New Guinea,577.5,5.775,1,0,0,0,NP,S. Pacific,Aggregate Reef,4/25/04,2004
+R00219,Stratified_AllReefs,Papua New Guinea,37.6,0.376,1,0,0,0,NH,S. Pacific,Patch Reef,11/29/10,2010
+R00220,Stratified_AllReefs,Papua New Guinea,859,8.59,1,0,0,0,NH,S. Pacific,Patch Reef,8/10/19,2019
+R00221,Stratified_AllReefs,Solomon Islands,439.1,4.391,1,169.69,1.6969,1,HP,S. Pacific,Patch Reef,6/29/09,2009
+R00222,Stratified_AllReefs,Solomon Islands,281.7,2.817,1,0,0,0,NP,S. Pacific,Aggregate Reef,8/14/13,2013
+R00223,Stratified_AllReefs,Solomon Islands,18.7,0.187,1,0,0,0,NP,S. Pacific,Aggregate Reef,5/20/12,2012
+R00224,Stratified_AllReefs,Solomon Islands,20.4,0.204,1,0,0,0,NP,S. Pacific,Aggregate Reef,5/20/12,2012
+R00225,Stratified_AllReefs,Cook Islands,511,5.11,1,0,0,0,NH,S. Pacific,Patch Reef,4/25/05,2005
+R00226,Stratified_AllReefs,Brazil,60.8,0.608,1,0,0,0,NP,S. Atlantic,Aggregate Reef,8/1/17,2017
+R00227,Stratified_AllReefs,Myanmar,75.4,0.754,1,0,0,0,NP,Indian ,Aggregate Reef,12/30/06,2006
+R00228,Stratified_AllReefs,Cambodia,15,0.15,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/30/13,2013
+R00229,Stratified_AllReefs,Cambodia,30.5,0.305,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/30/13,2013
+R00230,Stratified_AllReefs,Vietnam,143,1.43,1,1.66,0.0166,1,HP,N. Pacific,Patch Reef,8/6/14,2014
+R00231,Stratified_AllReefs,Vietnam,509,5.09,1,41,0.41,1,HP,N. Pacific,Patch Reef,6/24/16,2016
+R00232,Stratified_AllReefs,Philippines,43.4,0.434,1,0,0,0,DR,N. Pacific,Aggregate Reef,6/24/16,2016
+R00233,Stratified_AllReefs,Philippines,45,0.45,1,0,0,0,NP,N. Pacific,Aggregate Reef,1/21/18,2018
+R00234,Stratified_AllReefs,Philippines,17,0.17,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/21/15,2015
+R00235,Stratified_AllReefs,Philippines,25,0.25,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/21/15,2015
+R00236,Stratified_AllReefs,Philippines,39.12,0.3912,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/22/15,2015
+R00237,Stratified_AllReefs,Philippines,57.6,0.576,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/22/15,2015
+R00238,Stratified_AllReefs,Philippines,48.3,0.483,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/22/15,2015
+R00239,Stratified_AllReefs,Philippines,23.1,0.231,1,0,0,0,TF,N. Pacific,Aggregate Reef,3/3/19,2019
+R00240,Stratified_AllReefs,Philippines,9.2,0.092,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/30/19,2019
+R00241,Stratified_AllReefs,Philippines,9.8,0.098,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/30/19,2019
+R00242,Stratified_AllReefs,Philippines,65.15,0.6515,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/26/16,2016
+R00243,Stratified_AllReefs,Philippines,16.83,0.1683,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/26/16,2016
+R00244,Stratified_AllReefs,Philippines,54,0.54,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/26/16,2016
+R00245,Stratified_AllReefs,Philippines,214.9,2.149,1,0,0,0,NP,N. Pacific,Aggregate Reef,6/14/19,2019
+R00246,Stratified_AllReefs,Philippines,10.7,0.107,1,0,0,0,DR,N. Pacific,Aggregate Reef,6/14/19,2019
+R00247,Stratified_AllReefs,Palau,96,0.96,1,0,0,0,SR,N. Pacific,N/A,3/29/05,2005
+R00248,Stratified_AllReefs,Palau,74.2,0.742,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/1/05,2005
+R00249,Stratified_AllReefs,Marshall Islands,62,0.62,1,0,0,0,NH,N. Pacific,Patch Reef,12/6/13,2013
+R00250,Stratified_AllReefs,Marshall Islands,89.5,0.895,1,0,0,0,NP,N. Pacific,Aggregate Reef,12/6/13,2013
+R00251,Stratified_AllReefs,Tanzania,93.1,0.931,1,0,0,0,NP,Indian ,Aggregate Reef,5/3/11,2011
+R00252,Stratified_AllReefs,Indonesia,52,0.52,1,0,0,0,NP,S. Pacific,Spur and Groove,12/13/19,2019
+R00253,Stratified_AllReefs,Indonesia,208,2.08,1,0,0,0,NP,S. Pacific,Aggregate Reef,10/9/16,2015
+R00254,Stratified_AllReefs,Timor-Leste,17.6,0.176,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/28/17,2017
+R00255,Stratified_AllReefs,Papua New Guinea,2136.2,21.362,1,0,0,0,BR,S. Pacific,N/A,6/1/14,2014
+R00256,Stratified_AllReefs,Papua New Guinea,108,1.08,1,0,0,0,NH,S. Pacific,Aggregate Reef,8/19/04,2004
+R00257,Stratified_AllReefs,Papua New Guinea,48.4,0.484,1,0,0,0,BR,S. Pacific,N/A,7/9/19,2019
+R00258,Stratified_AllReefs,Papua New Guinea,48.4,0.484,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/14/04,2004
+R00259,Stratified_AllReefs,Cook Islands,112.5,1.125,1,0,0,0,NH,S. Pacific,Patch Reef,10/16/14,2014
+R00260,Stratified_AllReefs,Kiribati,144,1.44,1,0,0,0,NP,S. Pacific,Aggregate Reef,2/16/04,2004
+R00261,Stratified_AllReefs,Philippines,303.6,3.036,1,0,0,0,NP,N. Pacific,Aggregate Reef,4/3/19,2019
+R00262,Stratified_AllReefs,Philippines,95.2,0.952,1,0,0,0,NP,N. Pacific,Aggregate Reef,12/20/16,2016
+R00263,Stratified_AllReefs,Philippines,47.6,0.476,1,0,0,0,NP,N. Pacific,Aggregate Reef,12/30/13,2013
+R00264,Stratified_AllReefs,Philippines,183,1.83,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/1/18,2018
+R00265,Stratified_AllReefs,Philippines,12,0.12,1,0,0,0,NP,N. Pacific,Aggregate Reef,2/24/19,2019
+R00266,Stratified_AllReefs,Philippines,226,2.26,1,0,0,0,NP,N. Pacific,Aggregate Reef,2/24/19,2019
+R00267,Stratified_AllReefs,Philippines,124,1.24,1,0,0,0,NP,N. Pacific,Aggregate Reef,11/30/14,2014
+R00268,Stratified_AllReefs,Philippines,347,3.47,1,0,0,0,NP,N. Pacific,Aggregate Reef,4/5/20,2020
+R00269,Stratified_AllReefs,Venezuela,43.8,0.438,1,0,0,0,NH,N. Pacific,Patch Reef,6/1/04,2004
+R00270,Stratified_AllReefs,Mozambique,686.7,6.867,1,139,1.39,1,HP,Indian ,Patch Reef,11/8/16,2016
+R00271,Stratified_AllReefs,Timor-Leste,66,0.66,1,0,0,0,NP,Indian ,Aggregate Reef,11/22/14,2014
+R00272,Stratified_AllReefs,Australia,164,1.64,1,0,0,0,NP,S. Pacific,Aggregate Reef,11/22/14,2014
+R00273,Stratified_AllReefs,Australia,280,2.8,1,0,0,0,BR,S. Pacific,N/A,12/30/05,2005
+R00274,Stratified_AllReefs,Papua New Guinea,163,1.63,1,0,0,0,BR,S. Pacific,N/A,12/1/06,2006
+R00275,Stratified_AllReefs,Papua New Guinea,343,3.43,1,0,0,0,BR,S. Pacific,N/A,12/1/06,2006
+R00276,Stratified_AllReefs,India,23.2,0.232,1,0,0,0,NP,Indian ,Aggregate Reef,1/25/20,2020
+R00277,Stratified_AllReefs,India,105,1.05,1,0,0,0,NP,Indian ,Aggregate Reef,1/25/20,2020
+R00278,Stratified_AllReefs,India,37.7,0.377,1,0,0,0,NP,Indian ,Aggregate Reef,11/24/18,2018
+R00279,Stratified_AllReefs,India,90.6,0.906,1,0,0,0,NP,Indian ,Aggregate Reef,1/2/16,2016
+R00280,Stratified_AllReefs,Myanmar,6.67,0.0667,1,0,0,0,NP,Indian ,Aggregate Reef,11/12/16,2016
+R00281,Stratified_AllReefs,Myanmar,17,0.17,1,0,0,0,NP,Indian ,Aggregate Reef,1/27/14,2014
+R00282,Stratified_AllReefs,Thailand,14.3,0.143,1,0,0,0,NP,N. Pacific,Aggregate Reef,12/10/17,2017
+R00283,Stratified_AllReefs,Philippines,130,1.3,1,0,0,0,NP,N. Pacific,Aggregate Reef,12/22/19,2019
+R00284,Stratified_AllReefs,Philippines,37.6,0.376,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/1/19,2019
+R00285,Stratified_AllReefs,Philippines,178.3,1.783,1,0,0,0,NP,N. Pacific,Aggregate Reef,2/29/12,2012
+R00286,Stratified_AllReefs,Philippines,94.62,0.9462,1,0,0,0,NP,N. Pacific,Aggregate Reef,11/28/18,2018
+R00287,Stratified_AllReefs,Philippines,115,1.15,1,0,0,0,NP,N. Pacific,Aggregate Reef,11/28/18,2018
+R00288,Stratified_AllReefs,Philippines,171.1,1.711,1,0,0,0,NP,N. Pacific,Aggregate Reef,11/28/18,2018
+R00289,Stratified_AllReefs,Philippines,133.8,1.338,1,0,0,0,NP,N. Pacific,Aggregate Reef,11/20/19,2019
+R00290,Stratified_AllReefs,Philippines,87.8,0.878,1,0,0,0,NP,N. Pacific,Aggregate Reef,11/30/19,2019
+R00291,Stratified_AllReefs,Philippines,12.9,0.129,1,0,0,0,DR,N. Pacific,Aggregate Reef,11/30/19,2019
+R00292,Stratified_AllReefs,Philippines,150,1.5,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/9/15,2015
+R00293,Stratified_AllReefs,Colombia,27,0.27,1,0,0,0,NP,N. Atlantic,Aggregate Reef,6/1/19,2019
+R00294,Stratified_AllReefs,Venezuela,16.5,0.165,1,0,0,0,NP,N. Atlantic,Aggregate Reef,2/1/17,2017
+R00295,Stratified_AllReefs,Curacao,24.3,0.243,1,0,0,0,BR,N. Atlantic,N/A,6/1/20,2020
+R00296,Stratified_AllReefs,Curacao,680,6.8,1,324,3.24,1,HP,N. Atlantic,Patch Reef,6/1/20,2020
+R00297,Stratified_AllReefs,Curacao,319,3.19,1,0,0,0,BR,N. Atlantic,N/A,12/31/69,1969
+R00298,Stratified_AllReefs,Grenada,255.65,2.5565,1,0,0,0,NP,N. Atlantic,Aggregate Reef,1/1/20,2020
+R00299,Stratified_AllReefs,Mozambique,540,5.4,1,21,0.21,1,HP,Indian ,Patch Reef,6/23/18,2018
+R00300,Stratified_AllReefs,Madacascar,44,0.44,1,0,0,0,NP,Indian ,Aggregate Reef,8/9/19,2019
+R00301,Stratified_AllReefs,Australia,98.5,0.985,1,30,0.3,1,HP,S. Pacific,Patch Reef,5/9/12,2012
+R00302,Stratified_AllReefs,Australia,254,2.54,1,0,0,0,BR,S. Pacific,Patch Reef,5/9/12,2012
+R00303,Stratified_AllReefs,Australia,82,0.82,1,0,0,0,BR,S. Pacific,Aggregate Reef,12/30/06,2006
+R00304,Stratified_AllReefs,Eritrea,127.9,1.279,1,0,0,0,NP,Indian ,Aggregate Reef,11/20/18,2018
+R00305,Stratified_AllReefs,Eritrea,542,5.42,1,0,0,0,NP,Indian ,Aggregate Reef,3/3/16,2016
+R00306,Stratified_AllReefs,Yemen,102,1.02,1,0,0,0,NP,Indian ,Aggregate Reef,3/3/16,2016
+R00307,Stratified_AllReefs,India,36.31,0.3631,1,0,0,0,NP,Indian ,Aggregate Reef,11/8/18,2018
+R00308,Stratified_AllReefs,Philippines,143,1.43,1,0,0,0,NP,N. Pacific,Aggregate Reef,11/8/18,2018
+R00309,Stratified_AllReefs,Philippines,84.8,0.848,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/11/19,2019
+R00310,Stratified_AllReefs,Philippines,41.7,0.417,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/11/19,2019
+R00311,Stratified_AllReefs,Philippines,381,3.81,1,0,0,0,NP,N. Pacific,Aggregate Reef,2/28/19,2019
+R00312,Stratified_AllReefs,Nicaragua,48,0.48,1,0,0,0,NP,N. Pacific,Aggregate Reef,11/1/10,2010
+R00313,Stratified_AllReefs,St Vincent and the Grenadines,45,0.45,1,0,0,0,NP,N. Atlantic,Aggregate Reef,3/1/14,2014
+R00314,Stratified_AllReefs,Mozambique,139,1.39,1,0,0,0,NP,Indian ,Aggregate Reef,7/28/18,2018
+R00315,Stratified_AllReefs,Mayotte (France),156,1.56,1,0,0,0,NP,Indian ,Aggregate Reef,11/27/17,2017
+R00316,Stratified_AllReefs,Mayotte (France),105.7,1.057,1,0,0,0,NP,Indian ,Aggregate Reef,11/8/14,2014
+R00317,Stratified_AllReefs,Madacascar,43.8,0.438,1,0,0,0,NP,Indian ,Aggregate Reef,12/20/02,2002
+R00318,Stratified_AllReefs,Australia,209,2.09,1,0,0,0,BR,S. Pacific,Aggregate Reef,11/27/05,2005
+R00319,Stratified_AllReefs,Brazil,52,0.52,1,0,0,0,BR,S. Atlantic,Aggregate Reef,12/1/17,2017
+R00320,Stratified_AllReefs,Yemen,48,0.48,1,0,0,0,NP,Indian ,Aggregate Reef,1/16/09,2009
+R00321,Stratified_AllReefs,Yemen,12.3,0.123,1,0,0,0,NP,Indian ,Aggregate Reef,11/28/13,2013
+R00322,Stratified_AllReefs,India,32.7,0.327,1,0,0,0,NP,Indian ,Aggregate Reef,1/11/14,2014
+R00323,Stratified_AllReefs,Philippines,29.8,0.298,1,0,0,0,NP,N. Pacific,Aggregate Reef,12/19/19,2019
+R00324,Stratified_AllReefs,Philippines,252.8,2.528,1,0,0,0,NP,N. Pacific,Aggregate Reef,1/16/19,2019
+R00325,Stratified_AllReefs,Philippines,11.4,0.114,1,0,0,0,NP,N. Pacific,Aggregate Reef,10/21/15,2015
+R00326,Stratified_AllReefs,Philippines,38.8,0.388,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/14/19,2019
+R00327,Stratified_AllReefs,Philippines,27.1,0.271,1,0,0,0,NP,N. Pacific,Aggregate Reef,7/30/17,2017
+R00328,Stratified_AllReefs,Philippines,188,1.88,1,0,0,0,NP,N. Pacific,Aggregate Reef,4/17/19,2019
+R00329,Stratified_AllReefs,St. Lucia,13.7,0.137,1,0,0,0,NP,N. Atlantic,Aggregate Reef,10/24/19,2019
+R00330,Stratified_AllReefs,Mozambique,207.5,2.075,1,0,0,0,NP,Indian ,Aggregate Reef,8/20/16,2016
+R00331,Stratified_AllReefs,Madacascar,59.3,0.593,1,0,0,0,NP,Indian ,Aggregate Reef,5/19/16,2016
+R00332,Stratified_AllReefs,Madacascar,5.59,0.0559,1,0,0,0,NP,Indian ,Aggregate Reef,7/18/13,2013
+R00333,Stratified_AllReefs,Madacascar,503,5.03,1,0,0,0,BR,Indian ,Aggregate Reef,7/24/13,2013
+R00334,Stratified_AllReefs,Australia,"1,112.91",11.13,1,0,0,0,BR,S. Pacific,Patch Reef,12/30/06,2006
+R00335,Stratified_AllReefs,Australia,627,6.27,1,0,0,0,BR,S. Pacific,Aggregate Reef,11/22/05,2005
+R00336,Stratified_AllReefs,Australia,47.1,0.471,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/31/15,2015
+R00337,Stratified_AllReefs,Australia,616,6.16,1,279,2.79,1,HP,S. Pacific,Patch Reef,11/23/00,2000
+R00338,Stratified_AllReefs,Samoa,330.3,3.303,1,0,0,0,NP,S. Pacific,Patch Reef,1/3/15,2015
+R00339,Stratified_AllReefs,Samoa,109,1.09,1,0,0,0,NP,S. Pacific,Aggregate Reef,10/11/16,2016
+R00340,Stratified_AllReefs,Eritrea,100.9,1.009,1,0,0,0,NP,Indian ,Aggregate Reef,1/5/11,2011
+R00341,Stratified_AllReefs,Eritrea,44.8,0.448,1,0,0,0,NP,Indian ,Aggregate Reef,1/5/11,2011
+R00342,Stratified_AllReefs,Eritrea,102,1.02,1,0,0,0,NP,Indian ,Aggregate Reef,8/3/13,2013
+R00343,Stratified_AllReefs,Eritrea,167,1.67,1,0,0,0,NP,Indian ,Aggregate Reef,6/30/20,2020
+R00344,Stratified_AllReefs,Eritrea,66.2,0.662,1,0,0,0,BR,Indian ,Aggregate Reef,8/3/13,2013
+R00345,Stratified_AllReefs,Yemen,105.8,1.058,1,0,0,0,NP,Indian ,Aggregate Reef,12/30/08,2008
+R00346,Stratified_AllReefs,Philippines,46.4,0.464,1,0,0,0,NP,N. Pacific,Aggregate Reef,11/16/14,2014
+R00347,Stratified_AllReefs,Philippines,48.5,0.485,1,0,0,0,NP,N. Pacific,Aggregate Reef,11/16/14,2014
+R00348,Stratified_AllReefs,Madacascar,15.4,0.154,1,0,0,0,NP,Indian ,Aggregate Reef,10/16/04,2004
+R00349,Stratified_AllReefs,Australia,167,1.67,1,6.73,0.0673,1,HP,S. Pacific,Patch Reef,7/14/09,2009
+R00350,Stratified_AllReefs,Vanuatu,6.2,0.062,1,0,0,0,DR,S. Pacific,Aggregate Reef,2/1/13,2013
+R00351,Stratified_AllReefs,Vanuatu,17,0.17,1,0,0,0,DR,S. Pacific,Aggregate Reef,1/1/20,2020
+R00352,Stratified_AllReefs,Vanuatu,11.6,0.116,1,0,0,0,DR,S. Pacific,Aggregate Reef,8/28/02,2002
+R00353,Stratified_AllReefs,French Polynesia,40.8,0.408,1,0,0,0,NP,S. Pacific,Aggregate Reef,3/21/05,2005
+R00354,Stratified_AllReefs,French Polynesia,22.7,0.227,1,0,0,0,NH,S. Pacific,Patch Reef,6/17/06,2006
+R00355,Stratified_AllReefs,French Polynesia,59.8,0.598,1,0,0,0,NH,S. Pacific,Patch Reef,6/17/06,2006
+R00356,Stratified_AllReefs,Eritrea,61.6,0.616,1,0,0,0,NP,Indian ,Aggregate Reef,11/5/12,2012
+R00357,Stratified_AllReefs,Eritrea,684.5,6.845,1,0,0,0,NP,Indian ,Aggregate Reef,11/5/12,2012
+R00358,Stratified_AllReefs,Yemen,148,1.48,1,0,0,0,NP,Indian ,Aggregate Reef,12/30/11,2011
+R00359,Stratified_AllReefs,Yemen,26.6,0.266,1,0,0,0,NP,Indian ,Aggregate Reef,6/21/16,2016
+R00360,Stratified_AllReefs,Philippines,10.7,0.107,1,0,0,0,DR,N. Pacific,Aggregate Reef,1/25/19,2019
+R00361,Stratified_AllReefs,Guadeloupe (France),246,2.46,1,0,0,0,NP,N. Atlantic,Aggregate Reef,5/19/14,2014
+R00362,Stratified_AllReefs,Guadeloupe (France),32.4,0.324,1,0,0,0,DR,N. Atlantic,Aggregate Reef,2/24/20,2020
+R00363,Stratified_AllReefs,Madacascar,552,5.52,1,137,1.37,1,HP,Indian ,Patch Reef,6/24/14,2014
+R00364,Stratified_AllReefs,Australia,23.8,0.238,1,0,0,0,NP,S. Pacific,Aggregate Reef,8/11/06,2006
+R00365,Stratified_AllReefs,Australia,83.7,0.837,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/14/09,2009
+R00366,Stratified_AllReefs,Vanuatu,14.9,0.149,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/23/17,2017
+R00367,Stratified_AllReefs,Vanuatu,15,0.15,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/25/18,2018
+R00368,Stratified_AllReefs,Vanuatu,58,0.58,1,0,0,0,NP,S. Pacific,Aggregate Reef,2/1/13,2013
+R00369,Stratified_AllReefs,French Polynesia,226,2.26,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/1/09,2009
+R00370,Stratified_AllReefs,French Polynesia,141,1.41,1,0,0,0,NH,S. Pacific,Patch Reef,4/2/13,2013
+R00371,Stratified_AllReefs,French Polynesia,50.6,0.506,1,0,0,0,NP,S. Pacific,Aggregate Reef,4/2/13,2013
+R00372,Stratified_AllReefs,French Polynesia,16.1,0.161,1,0,0,0,NH,S. Pacific,Patch Reef,7/21/09,2009
+R00373,Stratified_AllReefs,French Polynesia,51.8,0.518,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/21/09,2009
+R00374,Stratified_AllReefs,Saudi Arabia,144,1.44,1,0,0,0,NP,Indian ,Aggregate Reef,12/30/13,2013
+R00375,Stratified_AllReefs,Philippines,38.6,0.386,1,0,0,0,NP,N. Pacific,Aggregate Reef,3/22/17,2017
+R00376,Stratified_AllReefs,Belize,745,7.45,1,0,0,0,NP,N. Atlantic,Aggregate Reef,11/1/18,2018
+R00377,Stratified_AllReefs,Madacascar,25.9,0.259,1,0,0,0,NP,Indian ,Aggregate Reef,11/2/18,2018
+R00378,Stratified_AllReefs,Madacascar,93.6,0.936,1,0,0,0,NP,Indian ,Aggregate Reef,9/24/19,2019
+R00379,Stratified_AllReefs,Australia,754,7.54,1,0,0,0,NP,S. Pacific,Aggregate Reef,8/11/06,2006
+R00380,Stratified_AllReefs,Australia,209,2.09,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/25/11,2011
+R00381,Stratified_AllReefs,Fiji,47.4,0.474,1,0,0,0,NP,S. Pacific,Aggregate Reef,4/25/15,2015
+R00382,Stratified_AllReefs,Fiji,157,1.57,1,7.76,0.0776,1,HP,S. Pacific,Patch Reef,6/15/16,2016
+R00383,Stratified_AllReefs,Fiji,100,1,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/20/19,2019
+R00384,Stratified_AllReefs,Fiji,125,1.25,1,0,0,0,NP,S. Pacific,Aggregate Reef,4/13/10,2010
+R00385,Stratified_AllReefs,Fiji,234,2.34,1,0,0,0,NP,S. Pacific,Aggregate Reef,9/18/12,2012
+R00386,Stratified_AllReefs,Fiji,290,2.9,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/25/16,2016
+R00387,Stratified_AllReefs,French Polynesia,253.7,2.537,1,0,0,0,NH,S. Pacific,Patch Reef,7/19/19,2019
+R00388,Stratified_AllReefs,French Polynesia,127,1.27,1,0,0,0,NH,S. Pacific,Patch Reef,10/9/16,2016
+R00389,Stratified_AllReefs,French Polynesia,110,1.1,1,0,0,0,NH,S. Pacific,Patch Reef,10/9/16,2016
+R00390,Stratified_AllReefs,Eritrea,273,2.73,1,0,0,0,NH,Indian ,Patch Reef,11/6/18,2018
+R00391,Stratified_AllReefs,Yemen,53.6,0.536,1,0,0,0,NP,Indian ,Aggregate Reef,1/16/19,2019
+R00392,Stratified_AllReefs,Belize,93.4,0.934,1,0,0,0,NP,N. Atlantic,Aggregate Reef,7/1/16,2016
+R00393,Stratified_AllReefs,Jamaica,54.2,0.542,1,0,0,0,DR,N. Atlantic,Aggregate Reef,2/24/17,2017
+R00394,Stratified_AllReefs,Dominican Republic,296,2.96,1,0,0,0,NP,N. Atlantic,Aggregate Reef,11/26/18,2018
+R00395,Stratified_AllReefs,Puerto Rico,68,0.68,1,0,0,0,NP,N. Atlantic,Aggregate Reef,11/1/17,2017
+R00396,Stratified_AllReefs,Australia,20.9,0.209,1,0,0,0,NP,S. Pacific,Aggregate Reef,1/4/16,2016
+R00397,Stratified_AllReefs,Australia,255,2.55,1,0,0,0,BR,S. Pacific,Aggregate Reef,9/21/12,2012
+R00398,Stratified_AllReefs,New Caledonia,50,0.5,1,0,0,0,BR,S. Pacific,Aggregate Reef,12/1/15,2015
+R00399,Stratified_AllReefs,Fiji,310,3.1,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/30/15,2015
+R00400,Stratified_AllReefs,Fiji,311,3.11,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/8/17,2017
+R00401,Stratified_AllReefs,Fiji,201,2.01,1,12.9,0.129,1,HP,S. Pacific,Patch Reef,7/21/19,2019
+R00402,Stratified_AllReefs,Fiji,84.6,0.846,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/21/19,2019
+R00403,Stratified_AllReefs,Fiji,79.8,0.798,1,0,0,0,NP,S. Pacific,Aggregate Reef,2/19/16,2016
+R00404,Stratified_AllReefs,Fiji,48.5,0.485,1,0,0,0,NP,S. Pacific,Aggregate Reef,3/13/06,2006
+R00405,Stratified_AllReefs,Fiji,86.7,0.867,1,0,0,0,NP,S. Pacific,Aggregate Reef,3/13/06,2006
+R00406,Stratified_AllReefs,Cook Islands,235,2.35,1,0,0,0,NH,S. Pacific,Patch Reef,7/19/09,2009
+R00407,Stratified_AllReefs,French Polynesia,18.4,0.184,1,0,0,0,NP,S. Pacific,Aggregate Reef,11/29/05,2005
+R00408,Stratified_AllReefs,French Polynesia,10.7,0.107,1,0,0,0,NP,S. Pacific,Aggregate Reef,11/29/05,2005
+R00409,Stratified_AllReefs,Sudan,33,0.33,1,0,0,0,NP,Indian ,Aggregate Reef,10/16/18,2018
+R00410,Stratified_AllReefs,Saudi Arabia,143,1.43,1,83.3,0.833,1,HP,Indian ,Patch Reef,1/26/09,2009
+R00411,Stratified_AllReefs,Saudi Arabia,162,1.62,1,0,0,0,NH,Indian ,Patch Reef,1/26/09,2009
+R00412,Stratified_AllReefs,Saudi Arabia,145.1,1.451,1,0,0,0,BR,Indian ,Patch Reef,6/23/11,2011
+R00413,Stratified_AllReefs,Philippines,27.2,0.272,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/14/18,2018
+R00414,Stratified_AllReefs,United States of America,14.1,0.141,1,0,0,0,DR,N. Pacific,Aggregate Reef,1/8/13,2013
+R00415,Stratified_AllReefs,Mexico,103,1.03,1,0,0,0,BR,N. Atlantic,Aggregate Reef,12/1/09,2009
+R00416,Stratified_AllReefs,Haiti,17.8,0.178,1,0,0,0,BR,N. Atlantic,Aggregate Reef,11/26/13,2013
+R00417,Stratified_AllReefs,Fiji,203.7,2.037,1,0,0,0,NH,S. Pacific,Patch Reef,7/16/18,2018
+R00418,Stratified_AllReefs,Fiji,145,1.45,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/16/18,2018
+R00419,Stratified_AllReefs,Fiji,99.8,0.998,1,0,0,0,NH,S. Pacific,Patch Reef,3/24/20,2020
+R00420,Stratified_AllReefs,Fiji,168,1.68,1,0,0,0,NH,S. Pacific,Patch Reef,2/16/08,2008
+R00421,Stratified_AllReefs,Fiji,77.4,0.774,1,0,0,0,NP,S. Pacific,Aggregate Reef,2/16/08,2008
+R00422,Stratified_AllReefs,Niue,16.8,0.168,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/2/16,2016
+R00423,Stratified_AllReefs,Niue,10.9,0.109,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/2/16,2016
+R00424,Stratified_AllReefs,Sudan,99.9,0.999,1,0,0,0,NP,Indian ,Aggregate Reef,3/25/20,2020
+R00425,Stratified_AllReefs,Saudi Arabia,151,1.51,1,0,0,0,NP,Indian ,Aggregate Reef,3/25/20,2020
+R00426,Stratified_AllReefs,United States of America,9.62,0.0962,1,0,0,0,NP,N. Pacific,Aggregate Reef,6/16/19,2019
+R00427,Stratified_AllReefs,Haiti,137,1.37,1,0,0,0,NP,N. Atlantic,Aggregate Reef,3/24/20,2020
+R00428,Stratified_AllReefs,Mauritius,271,2.71,1,0,0,0,NH,Indian ,Aggregate Reef,8/11/20,2020
+R00429,Stratified_AllReefs,Mauritius,397,3.97,1,0,0,0,NH,Indian ,Patch Reef,8/11/20,2020
+R00430,Stratified_AllReefs,Australia,272,2.72,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/21/09,2009
+R00431,Stratified_AllReefs,New Caledonia,499,4.99,1,0,0,0,NH,S. Pacific,Patch Reef,8/1/20,2020
+R00432,Stratified_AllReefs,New Caledonia,101,1.01,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/1/16,2016
+R00433,Stratified_AllReefs,Tonga,39.7,0.397,1,0,0,0,NP,S. Pacific,Aggregate Reef,11/26/11,2011
+R00434,Stratified_AllReefs,Tonga,95,0.95,1,0,0,0,NP,S. Pacific,Aggregate Reef,7/11/13,2013
+R00435,Stratified_AllReefs,Sudan,63.3,0.633,1,0,0,0,NP,Indian ,Aggregate Reef,4/2/05,2005
+R00436,Stratified_AllReefs,United States of America,14.7,0.147,1,0,0,0,NP,N. Pacific,Aggregate Reef,7/8/16,2016
+R00437,Stratified_AllReefs,Mexico,390,3.9,1,0,0,0,NP,N. Atlantic,Aggregate Reef,5/3/16,2016
+R00438,Stratified_AllReefs,Cuba,92.6,0.926,1,0,0,0,NP,N. Atlantic,Aggregate Reef,11/17/14,2014
+R00439,Stratified_AllReefs,Cuba,52,0.52,1,0,0,0,NP,N. Atlantic,Aggregate Reef,12/19/18,2018
+R00440,Stratified_AllReefs,Turks and Caicos Islands,43.8,0.438,1,0,0,0,NP,N. Atlantic,Aggregate Reef,12/31/10,2010
+R00441,Stratified_AllReefs,Australia,1107.27,11.0727,1,0,0,0,BR,S. Pacific,Aggregate Reef,12/1/10,2010
+R00442,Stratified_AllReefs,Australia,42.4,0.424,1,0,0,0,BR,S. Pacific,Aggregate Reef,4/1/12,2012
+R00443,Stratified_AllReefs,Australia,104,1.04,1,0,0,0,BR,S. Pacific,Aggregate Reef,4/1/12,2012
+R00444,Stratified_AllReefs,New Caledonia,831.7,8.317,1,25.8,0.258,1,HP,S. Pacific,Patch Reef,6/6/04,2004
+R00445,Stratified_AllReefs,New Caledonia,15.3,0.153,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/7/18,2018
+R00446,Stratified_AllReefs,New Caledonia,97.3,0.973,1,0,0,0,BR,S. Pacific,Aggregate Reef,12/1/15,2015
+R00447,Stratified_AllReefs,New Caledonia,31.7,0.317,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/30/15,2015
+R00448,Stratified_AllReefs,Tonga,148,1.48,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/30/15,2015
+R00449,Stratified_AllReefs,Tonga,108,1.08,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/30/15,2015
+R00450,Stratified_AllReefs,Saudi Arabia,74.5,0.745,1,0,0,0,NP,Indian ,Aggregate Reef,6/27/18,2018
+R00451,Stratified_AllReefs,United States of America,115.9,1.159,1,0,0,0,NP,N. Pacific,Aggregate Reef,5/23/19,2019
+R00452,Stratified_AllReefs,Cuba,1140,11.4,1,0,0,0,NP,N. Atlantic,Aggregate Reef,1/15/17,2017
+R00453,Stratified_AllReefs,Cuba,109,1.09,1,0,0,0,NP,N. Atlantic,Aggregate Reef,7/26/19,2019
+R00454,Stratified_AllReefs,Cuba,27,0.27,1,0,0,0,NP,N. Atlantic,Aggregate Reef,1/11/20,2020
+R00455,Stratified_AllReefs,Cuba,341,3.41,1,0,0,0,NP,N. Atlantic,Aggregate Reef,6/29/15,2015
+R00456,Stratified_AllReefs,Madacascar,294,2.94,1,0,0,0,NP,Indian ,Aggregate Reef,7/20/13,2013
+R00457,Stratified_AllReefs,Australia,268,2.68,1,0,0,0,NP,Indian ,Aggregate Reef,7/8/13,2013
+R00458,Stratified_AllReefs,Australia,50.7,0.507,1,0,0,0,NP,Indian ,Aggregate Reef,7/1/13,2013
+R00459,Stratified_AllReefs,Australia,107,1.07,1,0,0,0,NP,S. Pacific,Aggregate Reef,12/23/14,2014
+R00460,Stratified_AllReefs,Australia,89.6,0.896,1,0,0,0,BR,S. Pacific,Aggregate Reef,12/1/14,2014
+R00461,Stratified_AllReefs,Australia,338,3.38,1,4.93,0.0493,0,HP,S. Pacific,Patch Reef,12/23/14,2014
+R00462,Stratified_AllReefs,New Caledonia,207,2.07,1,113,1.13,1,HP,S. Pacific,Patch Reef,6/28/18,2018
+R00463,Stratified_AllReefs,New Caledonia,45,0.45,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/28/18,2018
+R00464,Stratified_AllReefs,New Caledonia,20.6,0.206,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/28/19,2019
+R00465,Stratified_AllReefs,New Caledonia,24,0.24,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/28/18,2018
+R00466,Stratified_AllReefs,New Caledonia,63,0.63,1,0,0,0,NP,S. Pacific,Aggregate Reef,9/24/16,2016
+R00467,Stratified_AllReefs,French Polynesia,160,1.6,1,0,0,0,NH,S. Pacific,Patch Reef,5/19/07,2007
+R00468,Stratified_AllReefs,Sudan,87.7,0.877,1,0,0,0,NH,Indian ,Aggregate Reef,5/24/07,2007
+R00469,Stratified_AllReefs,Saudi Arabia,38.6,0.386,1,0,0,0,NP,Indian ,Aggregate Reef,5/24/07,2007
+R00470,Stratified_AllReefs,Oman,56,0.56,1,0,0,0,NP,Indian ,Aggregate Reef,4/8/11,2011
+R00471,Stratified_AllReefs,Mexico,20.6,0.206,1,0,0,0,NP,N. Pacific,Aggregate Reef,12/13/16,2016
+R00472,Stratified_AllReefs,Cuba,260,2.6,1,0,0,0,NP,N. Atlantic,Aggregate Reef,10/4/12,2012
+R00473,Stratified_AllReefs,Cuba,617,6.17,1,0,0,0,NP,N. Atlantic,Aggregate Reef,11/8/16,2016
+R00474,Stratified_AllReefs,Cuba,89,0.89,1,0,0,0,NP,N. Atlantic,Aggregate Reef,11/8/16,2016
+R00475,Stratified_AllReefs,Bahamas,2343,23.43,1,2285,22.85,1,HP,N. Atlantic,Patch Reef,12/4/13,2013
+R00476,Stratified_AllReefs,Bahamas,23.5,0.235,1,0,0,0,NP,N. Atlantic,Aggregate Reef,10/15/15,2015
+R00477,Stratified_AllReefs,Madacascar,247,2.47,1,0,0,0,NP,Indian ,Aggregate Reef,10/6/18,2018
+R00478,Stratified_AllReefs,Australia,147,1.47,1,0,0,0,NP,Indian ,Aggregate Reef,11/30/18,2018
+R00479,Stratified_AllReefs,New Caledonia,184.5,1.845,1,0,0,0,NP,S. Pacific,Aggregate Reef,6/27/14,2014
+R00480,Stratified_AllReefs,Egypt,69.2,0.692,1,0,0,0,NP,Indian ,Aggregate Reef,9/30/16,2016
+R00481,Stratified_AllReefs,Saudi Arabia,117,1.17,1,0,0,0,NP,Indian ,Aggregate Reef,10/2/18,2018
+R00482,Stratified_AllReefs,Bahamas,235,2.35,1,0,0,0,NH,N. Atlantic,Patch Reef,7/29/10,2010
+R00483,Stratified_AllReefs,Bahamas,3654,36.54,1,1577,15.77,1,HP,N. Atlantic,Patch Reef,2/2/20,2020
+R00484,Stratified_AllReefs,Bahamas,165,1.65,1,0,0,0,NP,N. Atlantic,Aggregate Reef,2/2/20,2020
+R00485,Stratified_AllReefs,Bahamas,108,1.08,1,0,0,0,NP,N. Atlantic,Aggregate Reef,2/2/20,2020
+R00486,Stratified_AllReefs,Madacascar,54.2,0.542,1,0,0,0,NP,Indian ,Aggregate Reef,6/20/20,2020
+R00487,Stratified_AllReefs,Egypt,15,0.15,1,0,0,0,NP,Indian ,Aggregate Reef,3/30/20,2020
+R00488,Stratified_AllReefs,Saudi Arabia,122,1.22,1,0,0,0,NH,Indian ,Patch Reef,4/19/13,2013
+R00489,Stratified_AllReefs,Qatar,138,1.38,1,0,0,0,NP,Indian ,Aggregate Reef,4/1/13,2013
+R00490,Stratified_AllReefs,United States of America,1139,11.39,1,38.2,0.382,1,HP,N. Atlantic,Patch Reef,12/1/17,2017
+R00491,Stratified_AllReefs,Bahamas,259,2.59,1,0,0,0,NP,N. Atlantic,Aggregate Reef,2/1/20,2020
+R00492,Stratified_AllReefs,Bahamas,1378,13.78,1,898,8.98,1,HP,N. Atlantic,Patch Reef,3/18/18,2018
+R00493,Stratified_AllReefs,Bahamas,140,1.4,1,0,0,0,NP,N. Atlantic,Aggregate Reef,12/24/19,2019
+R00494,Stratified_AllReefs,Madacascar,151,1.51,1,0,0,0,NP,Indian ,Aggregate Reef,9/1/14,2014
+R00495,Stratified_AllReefs,Australia,76,0.76,1,0,0,0,NP,Indian ,Aggregate Reef,9/20/14,2014
+R00496,Stratified_AllReefs,Australia,426,4.26,1,0,0,0,NP,Indian ,Aggregate Reef,9/1/13,2013
+R00497,Stratified_AllReefs,Egypt,9.95,0.0995,1,0,0,0,NP,Indian ,Aggregate Reef,5/20/20,2020
+R00498,Stratified_AllReefs,Saudi Arabia,128,1.28,1,0,0,0,NP,Indian ,Aggregate Reef,11/1/11,2011
+R00499,Stratified_AllReefs,Saudi Arabia,236.2,2.362,1,0,0,0,NP,Indian ,Aggregate Reef,11/1/11,2011
+R00500,Stratified_AllReefs,Bahrain,454,4.54,1,0,0,0,NP,Indian ,Aggregate Reef,4/2/19,2019
+R00501,Stratified_AllReefs,United States of America,1321,13.21,1,0,0,0,NP,N. Pacific,Aggregate Reef,2/24/12,2012
+R00502,Stratified_AllReefs,Mexico,9.79,0.0979,1,0,0,0,NP,N. Pacific,Aggregate Reef,2/24/12,2012
+R00503,Stratified_AllReefs,Bahamas,284,2.84,1,0,0,0,NP,N. Atlantic,Aggregate Reef,9/10/19,2019
+R00504,Stratified_AllReefs,Mozambique,71,0.71,1,0,0,0,NP,Indian ,Aggregate Reef,3/19/19,2019
+R00505,Stratified_AllReefs,Australia,712,7.12,1,0,0,0,NP,Indian ,Aggregate Reef,8/5/18,2018
+R00506,Stratified_AllReefs,Australia,2864,28.64,1,0,0,0,NP,Indian ,Aggregate Reef,8/5/20,2020
+R00507,Stratified_AllReefs,Egypt,20.1,0.201,1,0,0,0,NP,Indian ,Aggregate Reef,4/24/20,2020
+R00508,Stratified_AllReefs,Saudi Arabia,60.6,0.606,1,0,0,0,NP,Indian ,Aggregate Reef,11/14/19,2019
+R00509,Stratified_AllReefs,Japan,203.8,2.038,1,0,0,0,NP,N. Pacific,Aggregate Reef,4/9/18,2018
+R00510,Stratified_AllReefs,Bahamas,412,4.12,1,0,0,0,NP,N. Atlantic,Aggregate Reef,9/10/19,2019
+R00511,Stratified_AllReefs,Egypt,25.4,0.254,1,0,0,0,NP,Indian ,Aggregate Reef,7/11/18,2018
+R00512,Stratified_AllReefs,Egypt,260.5,2.605,1,0,0,0,NH,Indian ,Patch Reef,7/11/18,2018
+R00513,Stratified_AllReefs,Egypt,550.4,5.504,1,14.98,0.1498,1,HP,Indian ,Patch Reef,8/13/20,2018
+R00514,Stratified_AllReefs,Saudi Arabia,149,1.49,1,0,0,0,NP,Indian ,Aggregate Reef,11/8/18,2018
+R00515,Stratified_AllReefs,Saudi Arabia,2066,20.66,1,186.85,1.8685,1,HP,Indian ,Patch Reef,3/19/19,2019
+R00516,Stratified_AllReefs,Egypt,20.3,0.203,1,0,0,0,NP,Indian ,Aggregate Reef,10/2/13,2013
+R00517,Stratified_AllReefs,Saudi Arabia,19.4,0.194,1,0,0,0,NP,Indian ,Aggregate Reef,10/2/13,2013
+R00518,Stratified_AllReefs,Australia,63.5,0.635,1,0,0,0,NP,Indian ,Aggregate Reef,4/7/20,2020
+R00519,Stratified_NTOnly,Palau,414.5,4.145,1,0,0,0,NH,N. Pacific,Patch Reef,6/1/14,2014
+R00520,Stratified_NTOnly,Indonesia,105,1.05,1,0,0,0,NH,N. Pacific,Patch Reef,9/1/06,2006
+R00521,Stratified_NTOnly,Seychelles,87.8,0.878,1,14.1,0.141,1,HP,Indian ,Patch Reef,12/1/13,2013
+R00522,Stratified_NTOnly,Seychelles,210,2.1,1,28.4,0.284,1,HP,Indian ,Patch Reef,6/1/15,2015
+R00523,Stratified_NTOnly,Indonesia,52.3,0.523,1,0,0,0,NH,S. Pacific,Patch Reef,12/1/16,2016
+R00524,Stratified_NTOnly,Marshall Islands,36,0.36,1,0,0,0,NH,N. Pacific,Patch Reef,1/1/15,2015
+R00525,Stratified_NTOnly,Palau,200.7,2.007,1,0,0,0,NH,N. Pacific,Patch Reef,1/1/17,2017
+R00526,Stratified_NTOnly,Palau,68.8,0.688,1,9.77,0.0977,1,HP,N. Pacific,Patch Reef,12/1/10,2010
+R00527,Stratified_NTOnly,Seychelles,229,2.29,1,0,0,0,NH,Indian ,Patch Reef,4/1/04,2004
+R00528,Stratified_NTOnly,Marshall Islands,337,3.37,1,121,1.21,1,HP,N. Pacific,Patch Reef,12/1/14,2014
+R00529,Stratified_NTOnly,Philippines,810,8.1,1,249,2.49,1,HP,N. Pacific,Patch Reef,2/1/14,2014
+R00530,Stratified_NTOnly,Australia,723.8,7.238,1,207,2.07,1,HP,S. Pacific,Patch Reef,10/1/14,2014
+R00531,Stratified_NTOnly,Nicaragua,142,1.42,1,120,1.2,1,HP,N. Atlantic,Patch Reef,7/1/14,2014
+R00532,Stratified_NTOnly,Samoa,170,1.7,1,0,0,0,NH,S. Pacific,Patch Reef,9/1/11,2011
+R00533,Stratified_NTOnly,Honduras,214,2.14,1,79.1,0.791,1,HP,N. Atlantic,Patch Reef,5/1/16,2016
+R00534,Stratified_NTOnly,United States of America,508,5.08,1,0,0,0,NH,N. Pacific,Patch Reef,10/1/14,2014
+R00535,Stratified_NTOnly,Dominican Republic,71.2,0.712,1,23.4,0.234,1,HP,N. Atlantic,Patch Reef,10/1/18,2018
+R00536,Stratified_NTOnly,Antigua and Barbuda,209,2.09,1,0,0,0,NH,N. Atlantic,Patch Reef,6/1/16,2016
+R00537,Stratified_NTOnly,Saudi Arabia,13.2,0.132,1,0,0,0,NH,Indian ,Patch Reef,6/1/11,2011
+R00538,Stratified_NTOnly,Virgin Islands,44.3,0.443,1,0,0,0,NH,N. Atlantic,Patch Reef,2/1/13,2013
+R00539,Stratified_NTOnly,Dominican Republic,759,7.59,1,0,0,0,NH,N. Atlantic,Patch Reef,2/1/20,2020
+R00540,Stratified_NTOnly,Cayman Islands,38.6,0.386,1,0,0,0,NH,N. Atlantic,Patch Reef,7/1/19,2019
+R00541,Stratified_NTOnly,Cuba,211,2.11,1,0,0,0,NH,N. Atlantic,Patch Reef,6/1/19,2019
+R00542,Stratified_NTOnly,China,1697,16.97,1,1548,15.48,1,HP,N. Pacific,Patch Reef,8/1/13,2013
+R00543,Stratified_NTOnly,Cuba,55.8,0.558,1,0,0,0,NH,N. Atlantic,Patch Reef,11/1/14,2014
+R00544,Stratified_NTOnly,Cuba,3373,33.73,1,0,0,0,NH,N. Atlantic,Patch Reef,11/1/09,2009
+R00545,Stratified_NTOnly,Cuba,326,3.26,1,114,1.14,1,HP,N. Atlantic,Patch Reef,12/1/14,2014
+R00546,Stratified_NTOnly,Saudi Arabia,472,4.72,1,0,0,0,NH,Indian ,Patch Reef,12/1/17,2017
+R00547,Stratified_NTOnly,United States of America,286,2.86,1,286,2.86,1,HP,N. Atlantic,Patch Reef,11/1/19,2019
+R00548,Stratified_NTOnly,Bahamas,188.9,1.889,1,0,0,0,NH,N. Atlantic,Patch Reef,12/1/18,2018
+R00549,Stratified_NTOnly,Australia,994,9.94,1,0,0,0,NH,S. Pacific,Patch Reef,12/1/17,2017
+R00550,Stratified_NTOnly,Australia,391.8,3.358,1,283,2.83,1,HP,S. Pacific,Patch Reef,5/1/16,2016
+R00551,Stratified_NTOnly,Australia,531,5.31,1,163.3,1.633,1,HP,S. Pacific,Patch Reef,5/1/16,2016
+R00552,Stratified_NTOnly,Australia,417,4.17,1,124,1.24,1,HP,S. Pacific,Patch Reef,5/1/16,2016
+R00553,Stratified_NTOnly,Australia,116,1.16,1,0,0,0,NH,S. Pacific,Patch Reef,2/1/15,2015
+R00554,Stratified_NTOnly,Australia,94.4,0.944,1,0,0,0,NH,S. Pacific,Patch Reef,7/1/09,2009
+R00555,Stratified_NTOnly,Australia,99.5,0.995,1,0,0,0,NH,S. Pacific,Patch Reef,7/1/09,2009
+R00556,Stratified_NTOnly,Australia,154,1.54,1,0,0,0,NH,S. Pacific,Patch Reef,9/1/16,2016
+R00557,Stratified_NTOnly,Australia,46,4.6,1,0,0,0,NH,S. Pacific,Patch Reef,7/1/09,2009
+R00558,Stratified_NTOnly,Australia,320,3.2,1,133,1.33,1,HP,S. Pacific,Patch Reef,7/1/16,2016
+R00559,Stratified_NTOnly,Australia,221,2.21,1,0,0,0,NH,S. Pacific,Patch Reef,9/1/12,2012
